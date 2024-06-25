@@ -1,0 +1,57 @@
+.project {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    width: 100%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.projects .proj {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projects .proj .pro {
+    width: 350px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .proj .pro .img {
+    height: 50%;
+    width: 80%;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.projects .proj .pro .img img {
+    height: 100%;
+    width: 100%;
+    transition: all .9s;
+}
+
+.projects .proj .pro .img img:hover {
+    scale: 1.05;
+}
+
+.projects .proj .pro p {
+    width: 90%;
+    color: #2e2d2dd7;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+footer {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 250px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer .mains {
+    width: 85%;
+    height: 60%;
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+
+footer .abt {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: start;
+}
+
+footer h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 350;
+    width: 55%;
+    text-align: center;
+}
+
+footer .abt p{
+    text-align: justify;
+}
+
+footer p a{
+    color: #fff;
+}
+
+footer .mains .soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .mains .soc a {
+    text-decoration: none;
+    background: transparent;
+}
+
+footer .mains .soc h2 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+footer .mains .soc a i {
+    border-radius: inherit;
+    color: #fff;
+    font-size: 30px;
+}

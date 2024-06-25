@@ -1,0 +1,119 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .cont{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .cont div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.contact .cont div p{
+    text-align: center;
+    width: 50%;
+}
+
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 750;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+    height: 70px;
+}
+
+h2 span {
+    width: 40px;
+    border: 3px solid #8045e5f2;
+    border-radius: 10px;
+}
+
+.contact .cont .for{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.contact .cont .for form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .cont .for form div{
+    width: 90%;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.contact .cont .for form div input,textarea{
+    height: 60px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 600;
+    background: #dedede80;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: inherit;
+}
+::-webkit-input-placeholder{
+    font-size: 15px;
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 600;
+    color: #00000068;
+}
+
+.contact .cont .for form div #text{
+    height: 100px;
+    resize: none;
+}
+
+.contact .cont .for form div label{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #323232e2;
+}
+
+.contact .cont .for form .btn{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.contact .cont .for form .btn button{
+    letter-spacing: 2px;
+}

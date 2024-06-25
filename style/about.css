@@ -1,0 +1,98 @@
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about .upp {
+    width: 100%;
+    height: 30%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.about .upp p {
+    font-size: 20px;
+    width: 60%;
+    height: 30px;
+    font-weight: 400;
+    color: #313030;
+    letter-spacing: 2px;
+}
+
+.about .dow {
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.about .dow .left {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.about .dow .left p {
+    margin-left: 100px;
+    color: #3b3b3be6;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.about .dow .left p b {
+    color: #000000d9;
+    font-size: 16px;
+}
+
+.about .dow .left p a {
+    color: #5a44cc;
+    font-size: 16px;
+}
+
+.about .dow .left h2 {
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.right {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    gap: 50px;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.right h2 {
+    font-weight: 600;
+}
+
+.right .ss {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.right .ss .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #cdcdcdd6;
+    color: #4b4a4a;
+}
