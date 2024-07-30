@@ -84,7 +84,7 @@
 .right ul {
     display: flex;
     list-style: none;
-    max-width: 500px;
+    width: 500px;
     justify-content: space-around;
     align-items: center;
 }
