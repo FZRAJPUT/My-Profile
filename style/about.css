@@ -81,18 +81,14 @@
     font-weight: 600;
 }
 
-.right .ss {
-    width: 100%;
+.right ul {
     display: flex;
-    gap: 10px;
+    list-style: none;
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.right .ss .skill {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 20px;
-    border-radius: 8px;
-    background: #cdcdcdd6;
-    color: #4b4a4a;
+.right ul li img{
+    width: 70px;
 }
