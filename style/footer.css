@@ -53,6 +53,13 @@ footer .mains .soc {
     align-items: center;
 }
 
+footer .mains .soc .icon{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer .mains .soc a {
     text-decoration: none;
     background: transparent;
@@ -63,8 +70,6 @@ footer .mains .soc h2 {
     font-weight: 400;
 }
 
-footer .mains .soc a i {
-    border-radius: inherit;
-    color: #fff;
-    font-size: 30px;
+footer .mains .soc a img {
+    width: 45px;
 }
