@@ -105,8 +105,8 @@
     gap: 20px;
 }
 
-.right .ss{
-    justify-content: space-between;
+.about .dow .right ul{
+    width: 100%;
 }
 
 /* Projects */
