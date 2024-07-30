@@ -85,6 +85,7 @@
     display: flex;
     list-style: none;
     width: 550px;
+    min-width:90%;
     justify-content: space-around;
     align-items: center;
 }
